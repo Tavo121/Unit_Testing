@@ -48,13 +48,16 @@
 			[
 				{
 					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++14"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/tavo/Documentos/Unit_TestingC++/src"
+					"path" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/src"
 				}
 			],
 			"language" : "CXX",

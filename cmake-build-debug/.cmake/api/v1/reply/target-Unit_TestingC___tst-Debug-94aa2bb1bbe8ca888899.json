@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "tst/Unit_TestingC___tst"
+			"path" : "tst/Unit_TestingC___tst.exe"
+		},
+		{
+			"path" : "tst/Unit_TestingC___tst.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -60,33 +63,36 @@
 			[
 				{
 					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++14"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 5,
-					"path" : "/home/tavo/Documentos/Unit_TestingC++/src"
+					"path" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/src"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/tavo/Documentos/Unit_TestingC++/lib/googletest/googletest/include"
+					"path" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/lib/googletest/googletest/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/home/tavo/Documentos/Unit_TestingC++/lib/googletest/googletest"
+					"path" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/lib/googletest/googletest"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/home/tavo/Documentos/Unit_TestingC++/lib/googletest/googlemock/include"
+					"path" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/lib/googletest/googlemock/include"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/home/tavo/Documentos/Unit_TestingC++/lib/googletest/googlemock"
+					"path" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/lib/googletest/googlemock"
 				}
 			],
 			"language" : "CXX",
@@ -100,7 +106,7 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				1
 			]
 		}
 	],
@@ -135,7 +141,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "lib/libgtest.a",
+				"fragment" : "lib\\libgtest.a",
 				"role" : "libraries"
 			},
 			{
@@ -145,23 +151,23 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "lib/libgmock.a",
+				"fragment" : "lib\\libgmock.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "lib/libgtest.a",
+				"fragment" : "lib\\libgtest.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lpthread",
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "Unit_TestingC___tst",
-	"nameOnDisk" : "Unit_TestingC___tst",
+	"nameOnDisk" : "Unit_TestingC___tst.exe",
 	"paths" : 
 	{
 		"build" : "tst",
@@ -170,14 +176,14 @@
 	"sourceGroups" : 
 	[
 		{
-			"name" : "Source Files",
+			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
 				0
 			]
 		},
 		{
-			"name" : "Header Files",
+			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
 				1
@@ -188,13 +194,13 @@
 	[
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "tst/MockClient.cpp",
+			"path" : "tst/MockClient.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "tst/MockClient.h",
+			"compileGroupIndex" : 0,
+			"path" : "tst/TESTs.cpp",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Unit_TestingC___run"
+			"path" : "src/Unit_TestingC___run.exe"
+		},
+		{
+			"path" : "src/Unit_TestingC___run.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -47,13 +50,16 @@
 			[
 				{
 					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++14"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/tavo/Documentos/Unit_TestingC++/src"
+					"path" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/src"
 				}
 			],
 			"language" : "CXX",
@@ -86,12 +92,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "Unit_TestingC___run",
-	"nameOnDisk" : "Unit_TestingC___run",
+	"nameOnDisk" : "Unit_TestingC___run.exe",
 	"paths" : 
 	{
 		"build" : "src",

@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/addr2line"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ar"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/tavo/Documentos/Unit_TestingC++/cmake-build-debug"
+			"value" : "c:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "22"
+			"value" : "21"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -103,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/189/bin/cmake/linux/bin/cmake"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/189/bin/cmake/linux/bin/cpack"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/189/bin/cmake/linux/bin/ctest"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -155,7 +155,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/c++"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -171,7 +171,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-9"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -187,7 +187,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-9"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -270,6 +270,22 @@
 			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
+			"name" : "CMAKE_CXX_STANDARD_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Libraries linked by default with all C++ applications."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32"
+		},
+		{
 			"name" : "CMAKE_C_COMPILER",
 			"properties" : 
 			[
@@ -283,7 +299,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/cc"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -299,7 +315,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-9"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -315,7 +331,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-9"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -398,6 +414,22 @@
 			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
+			"name" : "CMAKE_C_STANDARD_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Libraries linked by default with all C applications."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32"
+		},
+		{
 			"name" : "CMAKE_DLLTOOL",
 			"properties" : 
 			[
@@ -411,19 +443,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "CMAKE_DLLTOOL-NOTFOUND"
-		},
-		{
-			"name" : "CMAKE_EDIT_COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to cache edit program executable."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/snap/clion/189/bin/cmake/linux/bin/ccmake"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -435,7 +455,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "ELF"
+			"value" : "Unknown"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS",
@@ -594,52 +614,16 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
+			"name" : "CMAKE_GNUtoMS",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
+					"value" : "Convert GNU import libraries to MS format (requires Visual Studio)"
 				}
 			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_HAVE_PTHREADS_CREATE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have library pthreads"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_HAVE_PTHREAD_CREATE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have library pthread"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "CMAKE_HAVE_PTHREAD_H",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have include pthread.h"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
+			"type" : "BOOL",
+			"value" : "OFF"
 		},
 		{
 			"name" : "CMAKE_HOME_DIRECTORY",
@@ -651,7 +635,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/tavo/Documentos/Unit_TestingC++"
+			"value" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -855,7 +839,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/local"
+			"value" : "C:/Program Files (x86)/Unit_TestingC__"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -906,18 +890,6 @@
 			"value" : "com"
 		},
 		{
-			"name" : "CMAKE_INSTALL_SO_NO_EXE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Install .so files without execute permission."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
 			"name" : "CMAKE_INSTALL_SYSCONFDIR",
 			"properties" : 
 			[
@@ -947,7 +919,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ld"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -955,11 +927,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "make program"
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : "/snap/clion/189/bin/ninja/linux/ninja"
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1055,7 +1027,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/nm"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -1083,7 +1055,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/objcopy"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1099,7 +1071,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/objdump"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1223,7 +1195,115 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ranlib"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/ranlib.exe"
+		},
+		{
+			"name" : "CMAKE_RC_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "RC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/windres.exe"
+		},
+		{
+			"name" : "CMAKE_RC_COMPILER_WORKS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -1239,7 +1319,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/readelf"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1251,7 +1331,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/snap/clion/189/bin/cmake/linux/share/cmake-3.22"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1459,19 +1539,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/strip"
-		},
-		{
-			"name" : "CMAKE_UNAME",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "uname command"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/usr/bin/uname"
+			"value" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1499,19 +1567,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/bin/python3.8][cfound components: Interpreter ][v3.8.10()]"
-		},
-		{
-			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Details about finding Threads"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "[TRUE][v()]"
+			"value" : "[C:/Users/galva/AppData/Local/Programs/Python/Python39/python.exe][cfound components: Interpreter ][v3.9.2()]"
 		},
 		{
 			"name" : "INSTALL_GTEST",
@@ -1535,7 +1591,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tavo/Documentos/Unit_TestingC++/cmake-build-debug"
+			"value" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/cmake-build-debug"
 		},
 		{
 			"name" : "Unit_TestingC___IS_TOP_LEVEL",
@@ -1559,7 +1615,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tavo/Documentos/Unit_TestingC++"
+			"value" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2"
 		},
 		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
@@ -1571,7 +1627,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/local"
+			"value" : "C:/Program Files (x86)/Unit_TestingC__"
 		},
 		{
 			"name" : "_Python_EXECUTABLE",
@@ -1583,7 +1639,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/bin/python3.8"
+			"value" : "C:/Users/galva/AppData/Local/Programs/Python/Python39/python.exe"
 		},
 		{
 			"name" : "_Python_INTERPRETER_PROPERTIES",
@@ -1595,7 +1651,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Python;3;8;10;64;;cpython-38-x86_64-linux-gnu;/usr/lib/python3.8;/usr/lib/python3.8;/usr/lib/python3.8/site-packages;/usr/lib/python3.8/site-packages"
+			"value" : "Python;3;9;2;64;;cp39-win_amd64;C:\\Users\\galva\\AppData\\Local\\Programs\\Python\\Python39\\Lib;C:\\Users\\galva\\AppData\\Local\\Programs\\Python\\Python39\\Lib;C:\\Users\\galva\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages;C:\\Users\\galva\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages"
 		},
 		{
 			"name" : "_Python_INTERPRETER_SIGNATURE",
@@ -1607,7 +1663,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1d67f3455c450d8c2e1e4f08924f9fd7"
+			"value" : "aa31535f0f657a222c805fd588d78787"
 		},
 		{
 			"name" : "cmake_package_name",
@@ -1631,7 +1687,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/tavo/Documentos/Unit_TestingC++/cmake-build-debug/lib/googletest/googletest/generated"
+			"value" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/cmake-build-debug/lib/googletest/googletest/generated"
 		},
 		{
 			"name" : "gmock_BINARY_DIR",
@@ -1643,7 +1699,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tavo/Documentos/Unit_TestingC++/cmake-build-debug/lib/googletest/googlemock"
+			"value" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/cmake-build-debug/lib/googletest/googlemock"
 		},
 		{
 			"name" : "gmock_IS_TOP_LEVEL",
@@ -1679,7 +1735,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tavo/Documentos/Unit_TestingC++/lib/googletest/googlemock"
+			"value" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/lib/googletest/googlemock"
 		},
 		{
 			"name" : "gmock_build_tests",
@@ -1719,7 +1775,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tavo/Documentos/Unit_TestingC++/cmake-build-debug/lib/googletest"
+			"value" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/cmake-build-debug/lib/googletest"
 		},
 		{
 			"name" : "googletest-distribution_IS_TOP_LEVEL",
@@ -1743,7 +1799,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tavo/Documentos/Unit_TestingC++/lib/googletest"
+			"value" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/lib/googletest"
 		},
 		{
 			"name" : "gtest_BINARY_DIR",
@@ -1755,7 +1811,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tavo/Documentos/Unit_TestingC++/cmake-build-debug/lib/googletest/googletest"
+			"value" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/cmake-build-debug/lib/googletest/googletest"
 		},
 		{
 			"name" : "gtest_IS_TOP_LEVEL",
@@ -1779,7 +1835,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tavo/Documentos/Unit_TestingC++/lib/googletest/googletest"
+			"value" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/lib/googletest/googletest"
 		},
 		{
 			"name" : "gtest_build_samples",

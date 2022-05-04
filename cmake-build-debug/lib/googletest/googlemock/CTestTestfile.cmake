@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/tavo/Documentos/Unit_TestingC++/lib/googletest/googlemock
-# Build directory: /home/tavo/Documentos/Unit_TestingC++/cmake-build-debug/lib/googletest/googlemock
+# Source directory: C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/lib/googletest/googlemock
+# Build directory: C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/cmake-build-debug/lib/googletest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

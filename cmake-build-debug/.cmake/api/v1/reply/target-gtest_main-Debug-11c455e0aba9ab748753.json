@@ -99,7 +99,7 @@
 					"fragment" : "-g"
 				},
 				{
-					"fragment" : "-Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"
+					"fragment" : "-Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers"
 				},
 				{
 					"fragment" : "-std=c++14"
@@ -109,17 +109,17 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "/home/tavo/Documentos/Unit_TestingC++/src"
+					"path" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/src"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "/home/tavo/Documentos/Unit_TestingC++/lib/googletest/googletest/include"
+					"path" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/lib/googletest/googletest/include"
 				},
 				{
 					"backtrace" : 9,
 					"isSystem" : true,
-					"path" : "/home/tavo/Documentos/Unit_TestingC++/lib/googletest/googletest"
+					"path" : "C:/Users/galva/Desktop/Coding/Academic/Unit_Testing2/lib/googletest/googletest"
 				}
 			],
 			"language" : "CXX",
@@ -156,7 +156,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "/usr/local"
+			"path" : "C:/Program Files (x86)/Unit_TestingC__"
 		}
 	},
 	"name" : "gtest_main",
